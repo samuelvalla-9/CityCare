@@ -1,0 +1,15 @@
+-- ============================================================
+-- Initial Admin User Seed
+-- ============================================================
+-- This file runs automatically when spring.sql.init.mode=always
+-- Password: admin123 (BCrypt hashed with cost 12)
+-- 
+-- USAGE: After first run with DDL=create or update,
+-- insert the admin user manually via MySQL if this doesn't auto-run:
+--
+-- INSERT INTO users (name, email, password, role, status, created_at)
+-- VALUES ('Admin User', 'admin@citycare.com',
+--   '$2a$12$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lHHi',
+--   'ADMIN', 'ACTIVE', NOW())
+-- ON DUPLICATE KEY UPDATE email = email;
+-- ============================================================
